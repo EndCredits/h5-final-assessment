@@ -1,6 +1,6 @@
 <script setup>
-import NavBar from './components/NavBar.vue'
-import DashboardFragment from './components/DashboardFragment.vue';
+import NavBar from "./components/NavBar.vue";
+import DashboardFragment from "./components/DashboardFragment.vue";
 </script>
 
 <template>
@@ -10,5 +10,4 @@ import DashboardFragment from './components/DashboardFragment.vue';
   </div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>

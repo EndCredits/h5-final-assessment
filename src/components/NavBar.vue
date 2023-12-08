@@ -1,24 +1,23 @@
 <script setup>
-import { ref } from 'vue'
+import { ref } from "vue";
 
-const count = ref(0)
+const count = ref(0);
 
-const testmsg = ref('Hello World!')
+const testmsg = ref("Hello World!");
 
-var id = 0
+var id = 0;
 
 const mainItems = ref([
-  {"itemName": "Home", "itemURL": "233"},
-  {"itemName": "Blog", "itemURL": "234"},
-  {"itemName": "About", "itemURL": "235"}
-])
-
+  { itemName: "Home", itemURL: "233" },
+  { itemName: "Blog", itemURL: "234" },
+  { itemName: "About", itemURL: "235" },
+]);
 </script>
 
 <template>
   <div class="flex box-content p-4 border-4 rounded-xl shadow-xl items-center">
     <div class="flex">
-      <img src="../assets/vue.svg" class="img_vue flex">
+      <img src="../assets/vue.svg" class="img_vue flex" />
     </div>
     <div class="flex ms-4">
       <p class="font-sans text-xl font-bold">Rhine Lab</p>
