@@ -32,10 +32,6 @@ const mainItems = ref([
 </template>
 
 <style scoped>
-.read-the-docs {
-  color: #888;
-}
-
 .img_vue {
   height: 48px;
 }
