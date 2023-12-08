@@ -11,7 +11,7 @@ const routes = [
   {
     path: "/about",
     component: AboutView,
-  }
+  },
 ];
 
 const router = createRouter({

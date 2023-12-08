@@ -23,9 +23,11 @@ const mainItems = ref([
     </div>
     <div class="flex flex-row inset-y-0 ml-auto mr-4">
       <div class="mx-4" v-for="item in mainItems">
-        <router-link class="border-4 p-2 border-gray-300 rounded-2xl drop-shadow-md hover:drop-shadow-2xl" :to="{ path: item.itemURL }">{{
-          item.itemName
-        }}</router-link>
+        <router-link
+          class="border-4 p-2 border-gray-300 rounded-2xl drop-shadow-md hover:drop-shadow-2xl"
+          :to="{ path: item.itemURL }"
+          >{{ item.itemName }}</router-link
+        >
       </div>
     </div>
   </div>
