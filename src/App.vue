@@ -1,12 +1,10 @@
 <script setup>
-import NavBar from "./components/NavBar.vue";
-import DashboardFragment from "./components/DashboardFragment.vue";
+import HomeView from "./views/HomeView.vue";
 </script>
 
 <template>
   <div>
-    <NavBar />
-    <DashboardFragment />
+    <HomeView />
   </div>
 </template>
 
