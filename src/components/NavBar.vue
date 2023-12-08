@@ -8,8 +8,8 @@ const testmsg = ref("Hello World!");
 var id = 0;
 
 const mainItems = ref([
-  { itemName: "Home", itemURL: "233" },
-  { itemName: "About", itemURL: "235" },
+  { itemName: "Home", itemURL: "/" },
+  { itemName: "About", itemURL: "/about" },
 ]);
 </script>
 
