@@ -24,7 +24,9 @@ const mainItems = ref([
     </div>
     <div class="flex flex-row inset-y-0 ml-auto mr-4">
       <div class="mx-4" v-for="item in mainItems">
-        <a>{{ item.itemName }}</a>
+        <router-link :to="{ path: item.itemURL }">{{
+          item.itemName
+        }}</router-link>
       </div>
     </div>
   </div>
