@@ -6,7 +6,7 @@ const msg = ref("Vue 3 + Vite");
 
 <template>
   <div class="flex flex-col items-center justify-center h-screen">
-    <img class="w-48 h-48 img_dash_log" src="../../public/vite.svg" />
+    <img class="w-48 h-48 img_dash_log" src="../assets/vite.svg" />
     <div class="box-border w-128 p-4 rounded-2xl">
       <p class="text-center text-3xl font-bold">
         A Large Language Model Data Base
