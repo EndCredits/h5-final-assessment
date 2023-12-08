@@ -23,7 +23,7 @@ const mainItems = ref([
     </div>
     <div class="flex flex-row inset-y-0 ml-auto mr-4">
       <div class="mx-4" v-for="item in mainItems">
-        <router-link :to="{ path: item.itemURL }">{{
+        <router-link class="border-4 p-2 border-gray-300 rounded-2xl drop-shadow-md hover:drop-shadow-2xl" :to="{ path: item.itemURL }">{{
           item.itemName
         }}</router-link>
       </div>
@@ -42,13 +42,5 @@ const mainItems = ref([
 
 .img_vue:hover {
   filter: drop-shadow(0 0 0.75rem #00ffaa);
-}
-
-.img_vite {
-  height: 96px;
-}
-
-.img_vite:hover {
-  filter: drop-shadow(0 0 0.75rem #f700ff);
 }
 </style>
