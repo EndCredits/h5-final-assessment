@@ -9,6 +9,7 @@ var id = 0;
 
 const mainItems = ref([
   { itemName: "Home", itemURL: "/" },
+  { itemName: "Database", itemURL: "/database"},
   { itemName: "About", itemURL: "/about" },
 ]);
 </script>

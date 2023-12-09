@@ -1,7 +1,13 @@
 <script setup>
 import { ref } from "vue";
+import router from "../router";
 
 const msg = ref("Vue 3 + Vite");
+
+function navToDB(){
+  router.push('/database')
+  return
+}
 </script>
 
 <template>
@@ -12,7 +18,7 @@ const msg = ref("Vue 3 + Vite");
         A Large Language Model Data Base
       </p>
     </div>
-    <button class="box-border p-2 border-4 border-gray-400 rounded-2xl">
+    <button class="box-border p-2 border-4 border-gray-400 rounded-2xl" @click="navToDB">
       Click to start
     </button>
   </div>
