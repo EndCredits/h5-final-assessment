@@ -30,5 +30,13 @@
       "para1": "有用、有趣、有温度",
       "para2": "基于飞桨深度学习平台和文心知识增强大模型，持续从海量数据和大规模知识中融合学习具备知识增强、检索增强和对话增强的技术特色。"
     }
+  },
+  "article5": {
+    "title": "Bard",
+    "developer": "Google Inc.",
+    "paras": {
+      "para1": "Bard is a new tool that you can use to explore creative ideas & explain things simply. ",
+      "para2": " It’s a Google AI experiment that can generate text, translate languages, write different kinds of creative content & more. "
+    }
   }
 }
