@@ -6,16 +6,15 @@ import articles from "../assets/llmdb/llmdb.json";
   <div
     v-for="item in articles"
     :key="item.title"
-    class="mx-2 border-2 my-2 drop-shadow-2xl hover:drop-shadow-md rounded-2xl lg:w-1/2"
+    class="border-2 my-2 drop-shadow-2xl hover:drop-shadow-md rounded-2xl lg:w-1/2"
   >
-    <p class="text-bold text-xl mt-4 mx-2">{{ item.title }}</p>
-    <p class="text-semibold text-lg my-1 mx-2">
-      Developer: {{ item.developer }}
-    </p>
-    <div v-for="para in item.paras">
-      <p class="text-normal text-sm mx-2">{{ para }}</p>
+    <div class="mx-5 my-5">
+      <p class="text-bold text-2xl">{{ item.title }}</p>
+      <p class="text-semibold text-lg">Developer: {{ item.developer }}</p>
+      <div v-for="para in item.paras">
+        <p class="text-normal text-sm my-1">{{ para }}</p>
+      </div>
     </div>
-    <div class="mb-4"></div>
   </div>
 </template>
 
