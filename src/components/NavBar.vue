@@ -15,15 +15,17 @@ const mainItems = ref([
 </script>
 
 <template>
-  <div class="flex box-content p-4 border-4 rounded-xl shadow-xl items-center">
-    <div class="flex">
-      <img src="../assets/vue.svg" class="img_vue flex" />
+  <div class="md:flex md:flex-row md:box-content md:p-4 border-4 rounded-xl shadow-xl items-center flex flex-col my-auto mx-auto">
+    <div class="md:flex md:flex-row md:justify-center">
+      <div class="flex">
+        <img src="../assets/vue.svg" class="img_vue flex md:my-auto mx-auto my-2" />
+      </div>
+      <div class="flex ms-4 my-auto">
+        <p class="font-sans text-xl font-bold mx-auto">Rhine Lab</p>
+      </div>
     </div>
-    <div class="flex ms-4">
-      <p class="font-sans text-xl font-bold">Rhine Lab</p>
-    </div>
-    <div class="flex flex-row inset-y-0 ml-auto mr-4">
-      <div class="mx-4" v-for="item in mainItems">
+    <div class="md:flex md:flex-row md:inset-y-0 md:ml-auto md:mr-4 flex flex-row">
+      <div class="md:mx-4 md:my-auto mx-2 my-4" v-for="item in mainItems">
         <router-link
           class="border-4 p-2 border-gray-300 rounded-2xl drop-shadow-md hover:drop-shadow-2xl"
           :to="{ path: item.itemURL }"
