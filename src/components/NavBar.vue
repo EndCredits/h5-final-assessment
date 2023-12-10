@@ -1,12 +1,6 @@
 <script setup>
 import { ref } from "vue";
 
-const count = ref(0);
-
-const testmsg = ref("Hello World!");
-
-var id = 0;
-
 const mainItems = ref([
   { itemName: "Home", itemURL: "/" },
   { itemName: "Database", itemURL: "/database" },
