@@ -6,7 +6,7 @@ import articles from "../assets/llmdb/llmdb.json";
   <div
     v-for="item in articles"
     :key="item.title"
-    class="border-2 my-2 drop-shadow-2xl hover:drop-shadow-md rounded-2xl lg:w-1/2"
+    class="border-2 my-2 drop-shadow-2xl hover:drop-shadow-md rounded-2xl md:w-2/3"
   >
     <div class="mx-5 my-5">
       <p class="text-bold text-2xl">{{ item.title }}</p>
