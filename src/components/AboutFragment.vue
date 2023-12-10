@@ -10,10 +10,10 @@
   <div class="flex flex-1 flex-col items-center">
     <p class="my-2">Powered by</p>
     <div
-      class="self-center justify-center items-center my-2 flex flex-auto flex-row"
+      class="self-center justify-center items-center flex md:flex-auto md:flex-row flex-col"
     >
       <div
-        class="box-content h-32 w-64 border-4 rounded-2xl mx-2 flex flex-row drop-shadow-2xl hover:drop-shadow-md"
+        class="box-content h-32 w-64 border-4 rounded-2xl my-2 flex flex-row drop-shadow-2xl hover:drop-shadow-md"
       >
         <img class="box-content p-4 mx-auto" src="../assets/vue.svg" />
         <div class="flex flex-col mx-auto justify-center">
@@ -36,10 +36,10 @@
       </div>
     </div>
     <div
-      class="self-center justify-center items-center my-2 flex flex-auto flex-row"
+      class="self-center justify-center items-center flex md:flex-auto md:flex-row flex-col"
     >
       <div
-        class="box-content h-32 w-64 border-4 rounded-2xl mx-2 flex flex-row drop-shadow-2xl hover:drop-shadow-md"
+        class="box-content h-32 w-64 border-4 rounded-2xl mx-2 my-2 flex flex-row drop-shadow-2xl hover:drop-shadow-md"
       >
         <img
           class="box-content h-10 ml-5 my-auto"
@@ -64,7 +64,7 @@
     </div>
     <p class="my-2">Licensed under</p>
     <div
-      class="box-content h-32 w-72 border-4 rounded-2xl mx-2 flex flex-col drop-shadow-2xl hover:drop-shadow-md items-center justify-center"
+      class="box-content md:h-32 md:w-72 border-4 rounded-2xl mx-2 flex flex-col drop-shadow-2xl hover:drop-shadow-md items-center justify-center my-4"
     >
       <img class="w-64 my-2" src="../assets/cc.svg" />
       <p class="text-xl font-bold">CC-BY-SA 4.0</p>
