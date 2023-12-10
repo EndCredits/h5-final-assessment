@@ -16,7 +16,7 @@
     }
   },
   "article3": {
-    "title":"LLaMa",
+    "title": "LLaMa",
     "developer": "Meta AI",
     "paras": {
       "para1": "The next generation of our open source large language model",
@@ -26,7 +26,7 @@
   "article4": {
     "title": "文心一言",
     "developer": "百度公司",
-    "paras":{
+    "paras": {
       "para1": "有用、有趣、有温度",
       "para2": "基于飞桨深度学习平台和文心知识增强大模型，持续从海量数据和大规模知识中融合学习具备知识增强、检索增强和对话增强的技术特色。"
     }
@@ -37,6 +37,46 @@
     "paras": {
       "para1": "Bard is a new tool that you can use to explore creative ideas & explain things simply. ",
       "para2": " It’s a Google AI experiment that can generate text, translate languages, write different kinds of creative content & more. "
+    }
+  },
+  "article6": {
+    "title": "BERT",
+    "developer": "Google AI",
+    "paras": {
+      "para1": "BERT 是一种基于 Transformer 架构的语言模型，由 Google AI 开发。它最初是在 2018 年的论文《Attention Is All You Need》中提出的。BERT 在自然语言处理的许多任务上都取得了最先进的性能，包括文本分类、命名实体识别、问答等。",
+      "para2": "BERT 的预训练数据集由书籍和维基百科文本组成，总计约 1.56 亿个单词。BERT 的参数数量为 110 亿。"
+    }
+  },
+  "article7": {
+    "title": "GPT-3",
+    "developer": "OpenAI",
+    "paras": {
+      "para1": "GPT-3 是一种基于 Transformer 架构的生成语言模型，由 OpenAI 开发。它最初是在 2020 年的论文《Language Models are Few-Shot Learners》中提出的。GPT-3 在生成文本、翻译语言、写不同类型的创意内容等方面都表现出色。",
+      "para2": "GPT-3 的预训练数据集由书籍、维基百科、代码和其他来源的文本组成，总计约 1.56 万亿个单词。GPT-3 的参数数量为 1.56 万亿。"
+    }
+  },
+  "article8": {
+    "title": "PaLM",
+    "developer": "Google AI",
+    "paras": {
+      "para1": "PaLM 是一种基于 Transformer 架构的通用语言模型，由 Google AI 开发。它最初是在 2022 年的论文《Pathways Language Model》中提出的。PaLM 在自然语言处理的许多任务上都取得了最先进的性能，包括文本生成、翻译语言、问答等。",
+      "para2": "PaLM 的预训练数据集由书籍、维基百科、代码和其他来源的文本组成，总计约 5400 亿个单词。PaLM 的参数数量为 5400 亿。"
+    }
+  },
+  "article9": {
+    "title": "Meena",
+    "developer": "Google AI",
+    "paras": {
+      "para1": "Meena 是一种基于 Transformer 架构的对话式人工智能，由 Google AI 开发。它最初是在 2020 年的论文《Towards a Human-like Open-Domain Chatbot》中提出的。Meena 在与人类进行对话方面表现出色，能够理解和响应各种提示和问题。",
+      "para2": "Meena 的预训练数据集由书籍、维基百科、聊天记录和其他来源的文本组成，总计约 3400 亿个单词。Meena 的参数数量为 3400 亿。"
+    }
+  },
+  "article10": {
+    "title": "GPT-J",
+    "developer": "OpenAI",
+    "paras": {
+      "para1": "GPT-J 是一种基于 Transformer 架构的生成语言模型，由 OpenAI 开发。它最初是在 2022 年的论文《Jumbo Language Model: A 175B Parameter Model for Natural Language Generation》中提出的。GPT-J 在生成文本、翻译语言、写不同类型的创意内容等方面都表现出色。",
+      "para2": "GPT-J 的预训练数据集由书籍、维基百科、代码和其他来源的文本组成，总计约 1750 亿个单词。GPT-J 的参数数量为 1750 亿。"
     }
   }
 }
