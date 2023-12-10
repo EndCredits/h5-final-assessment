@@ -1,0 +1,26 @@
+{
+  "article1": {
+    "title": "ChatGPT",
+    "developer": "OpenAI",
+    "paras": {
+      "para1": "A free-to-use AI system.",
+      "para2": "Use it for engaging conversations, gain insights, automate tasks, and witness the future of AI, all in one place."
+    }
+  },
+  "article2": {
+    "title": "ChatGLM",
+    "developer": "Xunfei Spark",
+    "paras": {
+      "para1": "ChatGLM-6B && Chatv2GLM-6B ",
+      "para2": "一个开源的、支持中英双语的对话语言模型，基于 General Language Model (GLM) 架构，具有 62 亿参数"
+    }
+  },
+  "article3": {
+    "title":"LLaMa",
+    "developer": "Meta AI",
+    "paras": {
+      "para1": "The next generation of our open source large language model",
+      "para2": "This release includes model weights and starting code for pretrained and fine-tuned Llama language models (Llama Chat, Code Llama) — ranging from 7B to 70B parameters."
+    }
+  }
+}
