@@ -13,7 +13,7 @@
       class="self-center justify-center items-center flex md:flex-auto md:flex-row flex-col"
     >
       <div
-        class="box-content h-32 w-64 border-4 rounded-2xl my-2 flex flex-row drop-shadow-2xl hover:drop-shadow-md"
+        class="box-content h-32 w-64 border-4 rounded-2xl my-2 mx-2 flex flex-row drop-shadow-2xl hover:drop-shadow-md"
       >
         <img class="box-content p-4 mx-auto" src="../assets/vue.svg" />
         <div class="flex flex-col mx-auto justify-center">
