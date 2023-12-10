@@ -8,11 +8,11 @@
     }
   },
   "article2": {
-    "title": "ChatGLM",
-    "developer": "Xunfei Spark",
+    "title": "智谱清言",
+    "developer": "智谱华章",
     "paras": {
-      "para1": "ChatGLM-6B && Chatv2GLM-6B ",
-      "para2": "一个开源的、支持中英双语的对话语言模型，基于 General Language Model (GLM) 架构，具有 62 亿参数"
+      "para1": "中英双语千亿对话模型",
+      "para2": "基于千亿基座模型 GLM-130B，注入代码预训练，通过有监督微调等技术实现人类意图对齐，具备问答、多轮对话、代码生成功能的中英双语大模型。"
     }
   },
   "article3": {
@@ -21,6 +21,14 @@
     "paras": {
       "para1": "The next generation of our open source large language model",
       "para2": "This release includes model weights and starting code for pretrained and fine-tuned Llama language models (Llama Chat, Code Llama) — ranging from 7B to 70B parameters."
+    }
+  },
+  "article4": {
+    "title": "文心一言",
+    "developer": "百度公司",
+    "paras":{
+      "para1": "有用、有趣、有温度",
+      "para2": "基于飞桨深度学习平台和文心知识增强大模型，持续从海量数据和大规模知识中融合学习具备知识增强、检索增强和对话增强的技术特色。"
     }
   }
 }
